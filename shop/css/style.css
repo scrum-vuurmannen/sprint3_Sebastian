@@ -1,0 +1,470 @@
+body{
+    background-color: #ccc;
+    /* border: 3px solid white; */
+    margin: 0;
+}
+/* pagina zelf */
+#shop{
+}
+
+
+
+/* tietel */
+#head-text{
+    background-color: black;
+    color:  #f9f9f9;
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head-text img{
+    margin-left: 20px;
+}
+
+#head-text h1{
+    margin-left: 80px;
+}
+
+
+/* nav */
+#nav{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    height: 52px;
+    margin-bottom: 40px;
+}
+
+#head-nav ul{
+    list-style: none;
+}
+    
+#head-nav ul li{ 
+    width: auto;
+    height: auto;
+    text-align: center;
+    float: left;
+    font-size: 19px;   
+    position: relative;     
+}
+    #head-nav ul li a { 
+        color: red;
+    }
+
+    #head-nav ul ul{
+        background: #6b6b6b;
+        display: none;
+        top: 52px;
+        position: absolute;
+        width: auto;
+    }
+
+    #head-nav ul li:hover > ul{
+        display: block;
+    }
+
+    #head-nav ul ul a{
+        margin-left: -40px;
+        float: left;
+        background-color: #3a3a3af0;
+        width: 120px;
+    }
+
+
+#head-nav{
+    background-color:black;
+    width: 640px;
+    height: auto;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+}
+#head-nav a{
+    /* float: right; */
+    display: block;
+    color: white;
+    width: 120px;
+    text-align: center;
+    margin-bottom:0px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.normaal{
+    padding: 15px;
+}
+
+#head-nav a:hover{
+    background-color: #00000090;
+
+}
+
+
+
+
+
+/* producten */
+#producten{
+    text-align: center;
+    height: auto;
+}
+
+#producten img{
+    width: 200px;
+    height: 200px;
+}
+
+#sold-out{
+    padding: 0px;
+    border: 0px;
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
+    margin-right: -4px;
+}
+
+#producten form{
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#producten input[type=text]{
+    color: white;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+}
+
+#producten input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#producten input[type=submit]:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+#producten h4{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+
+/* winkelmand */
+
+#winkelmand{
+    color:black;
+    position: absolute;
+    /* position: relative; */
+    height:auto;
+    padding: 16px;
+    background-color: #ffffffd0;
+    float: right;
+    display: none;
+}
+
+
+#space{
+    width: 300px;
+    height: 1px;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+.winkelmand-toggle{
+    display: none;
+}
+.winkelmand-toggle:checked ~ #winkelmand{
+    display: block;
+}
+
+
+#table-winkelmand{
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-winkelmand-normaal{
+    width: calc((300px - 20px)/4);
+}
+.table-winkelmand-img{
+    width: 20px;
+}
+#table-winkelmand a{
+    height: 20px;
+    width: 20px;
+    background: none;
+}
+
+
+
+#gegevens{
+    text-align: left;
+    margin-left: 210px;
+    margin-bottom: 70px;
+}
+
+
+#betaal-knop{
+    margin-top: 10px;
+    background:none;
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+    bottom: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#betaal-knop:hover{
+    background-color: #686868f0;
+}
+
+
+#betaal{
+    width: 595px;
+    height: 842px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#betaal img{
+    margin-top: 10px;
+    margin-left: -390px;
+    height: 190px;
+    width: 190px;
+}
+#betaal h1{
+    margin-top: -200px;
+}
+#betaal h2{
+    margin-bottom: 20px;
+}
+
+#betaal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 150px;
+    border: 1px solid white;
+    margin-bottom: 80px;
+}
+
+.betaal-table-normaal td{
+    text-align: left;
+}
+#betaal-table-totaal{
+    text-align: right;
+}
+
+#betaal hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#betaal th,td,tr{
+    margin: 0px;
+}
+
+#betaal .een{
+    background-color: rgb(116, 115, 115);
+}
+#betaal .twee{
+    background-color: rgb(139, 139, 139);
+}
+
+#betaal th{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+/* admin */
+#admin-list th{
+    background-color: black;
+    color:white;
+}
+#admin-list table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#admin-list hr{
+    margin: 0px;
+    padding: 0px;
+}
+#admin-list .admin-list-center{
+    text-align: center;
+}
+
+#admin-list .twwe{
+    background-color: rgb(70, 70, 70);
+}
+
+#admin-list .een{
+    background-color: rgb(85, 85, 85);
+}
+
+#admin-list .button{
+    width: 100%;
+    text-align: center;
+}
+
+#admin-list .button input{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    color: white;
+}
+
+#admin-list .button input:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+#edit{
+    margin-left: auto;
+    margin-right: auto;
+    /* border:1px solid black; */
+    width: 400px;
+    height: auto;
+}
+
+#edit input[type=text]{
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+}
+
+#edit input[type=submit]{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#edit input[type=submit]{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    color: white;
+}
+
+#edit input[type=submit]:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+
+
+#add{
+    margin-left: auto;
+    margin-right: auto;
+    /* border:1px solid black; */
+    width: 400px;
+    height: auto;
+}
+
+#add h1{
+    margin-left: 100px;
+}
+
+#add input[type=text]{
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+}
+
+#add input[type=submit]{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#add input[type=submit]{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    color: white;
+}
+
+#add input[type=submit]:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+
+
+#login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* border:1px solid black; */
+    width: 400px;
+    height: auto;
+}
+
+#login input{
+    float: right;
+}
+
+#login input[type=text]{
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+}
+
+#login input[type=password]{
+    color: white;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+}
+
+#login input[type=submit]{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#login input[type=submit]{
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    color: white;
+    margin-left:-30px;
+}
+
+#login input[type=submit]:hover{
+    background-color: rgb(100, 100, 100);
+}
